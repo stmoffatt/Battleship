@@ -1,0 +1,27 @@
+td {
+  border: 1px solid black;
+  padding: 0 0 0 0;
+}
+
+td.blank:hover {
+  background-color: #333;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+td.blank {
+  background-color: white;
+}
+
+td.ship {
+  background-color: black;
+}
+
+td.miss {
+  background-color: #3987c9;
+}
+
+td.hit {
+  background-color: #af111c;
+}
